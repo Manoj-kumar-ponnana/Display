@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: #1687A7;
+    color: rgb(46, 219, 225);
+    font-family:sans-serif ;
+}
+.md{
+    text-align: center;
+    background-color: #393E46;
+    border-radius: 30px;
+}
+.nh{
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    color: #D3E0EA;
+    background-color: #1687A7;
+    border-radius: 20px;
+}
+nav{
+    display: inline-block;
+    float: left;
+}
+#nfm:hover ~#fm{
+    display: block; 
+}
+#ngm:hover ~ #gm{
+    display: block;
+}
+#nf:hover ~ #f{
+    display: block;
+}
+#nm:hover ~ #m{
+    display: block;
+}
+#nmm:hover ~ #me{
+    display: block;
+}
+#ns:hover ~ #s{
+    display: block;
+}
+#fm{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+    vertical-align: auto;
+    background-color: #1687A7;
+}
+#gm{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+    vertical-align: auto;
+    background-color: #1687A7;
+}
+#f{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+}
+#m{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+}
+#me{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+}
+#s{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    display: none;
+    margin: auto;
+}
+.cd{
+    font-size: large;
+    text-align: justify;
+    display: inline-block; 
+    margin-top: 10%;
+    float: inline-start;
+    font-weight: bold;
+}
+.cd1{
+    font-size: large;
+    display: inline-block; 
+    margin-top: 10%;
+    float: inline-start;
+    font-weight: bold;
+    width: 70%;
+}
+.imgc{
+    width: 40%;
+    height: 40%;
+    float: inline-start;
+    border-radius: 50%;
+    box-shadow:  5px 10px 15px rgb(46, 219, 225);
+    margin-top: 5%;
+}
+.imgc1{
+    width: 80%;
+    height: 60%;
+    float: inline-start;
+    box-shadow:  5px 10px 15px rgb(46, 219, 225);
+    border-radius: 5%;
+    margin-top: 5%;
+}
